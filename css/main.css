@@ -46,15 +46,6 @@ ol {
 
 }
 
-.inset {
-  float: left;
-  width: 22%;
-  margin-top: 0.7em;
-  margin-right: 0.5em;
-  margin-bottom: 0em;
-  width: 40%;
-}
-
 p {
   font-family: 'Merriweather', serif;
   font-size: .7rem;
@@ -81,10 +72,41 @@ p {
   clear: left;
 }
 
+.grains{
+  float: left;
+  float: left;
+  width: 22%;
+  margin-top: 0.7em;
+  margin-right: 0.5em;
+  margin-bottom: 0em;
+  width: 40%;
+}
+
 .inset{
   float: left;
   width: 25%;
   padding: 0. 5em;
   margin-right: .5em;
   margin-bottom: .6em;
+}
+
+.cereal{
+  float: right;
+  width: 40%;
+  padding: 0. 5em;
+  margin-right: .5em;
+  margin-bottom: .6em;
+}
+
+.quinoa{
+  float: right;
+  width: 40%;
+  padding: 0. 5em;
+  margin-right: .5em;
+  margin-bottom: .6em;
+}
+
+.clear-it{
+  clear: left;
+
 }
