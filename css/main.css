@@ -7,17 +7,18 @@ background-color: white;
 }
 
 header {
-  padding:.7 0em;
+  padding: 0em;
+  margin: 0em;
   background-color: darkorange;
-  margin-top: 1em;
   width: 100%;
 }
 
 h1 {
-  font-family: Gerogia;
+  font-family: 'merriweather', serif;
+  font-size: 1.5em;
   text-align: center;
   color: white;
-  margin: 0em;
+  margin-top: 0em;
   padding: 0em;
 }
 
@@ -36,8 +37,8 @@ h3 {
   color: black;
   font-family: 'merriweather', serif;
   font-size: 1.1em;
-  padding: 1em;
-  margin: 0em;
+  padding: 0em 2em;
+  margin: .7em;
 }
 
 li {
@@ -45,6 +46,7 @@ li {
   color: white;
   background-color: darkorange;
   margin: 0em;
+  padding: 0em;
 }
 
 nav li{
@@ -53,7 +55,7 @@ width: 31.7%;
 color: white;
 border: grey solid 1px;
 overflow: hidden;
-padding: 0em;
+padding: .3em 0em .3em .1em;
 margin: 0em;
 text-align: center;
 display: inline-block;
@@ -144,7 +146,10 @@ figcaption{
   color: white;
   text-align: center;
   margin: 0em;
-  padding: 0em;
+  padding: 1.1em;
+  font-style: italic;
+  font-family: 'merriweather', serif;
+  font-size: .3em;
 }
 
 figure {
