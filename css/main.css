@@ -54,3 +54,37 @@ ol {
   margin-bottom: 0em;
   width: 40%;
 }
+
+p {
+  font-family: 'Merriweather', serif;
+  font-size: .7rem;
+  line-height: 1.6em;
+
+}
+
+.peanuts {
+  width: 25%;
+  float: left;
+  padding: 0. 5em;
+  margin-right: .5em;
+  margin-bottom: .6em;
+}
+
+.beans {
+  width: 25%;
+  float: left;
+  margin-right: .5em;
+  margin-bottom: .6em;
+}
+
+.clear-it {
+  clear: left;
+}
+
+.inset{
+  float: left;
+  width: 25%;
+  padding: 0. 5em;
+  margin-right: .5em;
+  margin-bottom: .6em;
+}
