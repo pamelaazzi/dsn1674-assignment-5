@@ -32,6 +32,7 @@ h1 {
   color: white;
   margin-top: 1em;
   padding: 0em;
+  font-weight: normal;
 }
 
 h2 {
@@ -39,6 +40,7 @@ h2 {
   text-align: center;
   color: white;
   font-family: 'merriweather', serif;
+  font-weight: normal;
   font-size: 1.1em;
   padding: 1em;
   margin: 0;
@@ -49,12 +51,13 @@ h3 {
   text-align: center;
   color: black;
   font-family: 'merriweather', serif;
-  font-size: 1.1em;
   margin-bottom: 1em;
   font-style: ultra bold;
 }
 
 li {
+  font-family: 'merriweather', sans;
+  font-size: 0.9em;
   display: inline-block;
   color: white;
   background-color: #d05c2e;
@@ -66,9 +69,9 @@ nav li{
   float: left;
   width: 32.8%;
   color: white;
-  border: grey solid 1px;
+  border: darkred solid 1px;
   padding: 0;
-  margin-bottom: 0.5em;
+  margin-bottom: 0em;
   text-align: center;
   display: inline-block;
 }
@@ -90,6 +93,10 @@ ol{
   margin: 0em;
   padding: 0em;
   width: 100%;
+}
+
+nav ol {
+  overflow: hidden;
 }
 
 p {
@@ -119,6 +126,7 @@ p {
   margin-right: 0.5em;
   margin-bottom: 0.5em;
   margin-left: 0.5em;
+  margin-top: 0.6em;
   width: 40%;
   border: lightgrey solid 1px;
 }
